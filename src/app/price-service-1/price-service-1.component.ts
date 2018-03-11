@@ -8,10 +8,10 @@ import { Component } from '@angular/core';
 export class PriceService1Component {
 
   constructor() { }
-  
   calculateTotalPrice(basePrice: number, state: string) {
     const tax = Math.random();
     return basePrice + tax;
   }
 
 }
+  
